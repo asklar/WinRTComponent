@@ -15,7 +15,7 @@ Here's how to get it to work:
 3. Then add the following properties to the VCXProj
 ```
   <PropertyGroup>
-    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    <UseDotNetNativeToolchain Condition="'$(Configuration)'=='Release'">true</UseDotNetNativeToolchain>
     <DotNetNativeVersion>2.2.3</DotNetNativeVersion>
   </PropertyGroup>
 ```
