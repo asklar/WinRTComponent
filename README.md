@@ -11,7 +11,7 @@ FUSION_E_REF_DEF_MISMATCH
 
 Here's how to get it to work:
 1. Right click on the VCXProj file ➡ Manage NuGet Packages.
-2. Search for Microsoft.Net.Native.Compiler, and install it
+2. Search for **Microsoft.Net.Native.Compiler**, and install it
 3. Then add the following properties to the VCXProj
 ```
   <PropertyGroup>
